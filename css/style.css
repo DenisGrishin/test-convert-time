@@ -584,6 +584,19 @@ body.popup-show::after {
   }
 }
 
+._header-scroll {
+  position: fixed;
+  top: -100%;
+  z-index: 100;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.3s ease 0s;
+}
+
+._header-show {
+  top: 0;
+}
+
 .footer {
   padding-top: 1.6875rem;
   padding-bottom: 1.75rem;
