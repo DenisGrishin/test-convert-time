@@ -204,7 +204,7 @@ body.popup-show::after {
 }
 @media (max-width: 29.99875em) {
   .popup__content {
-    padding: 3.75rem 1.875rem;
+    padding: 3.75rem 1.875rem !important;
   }
 }
 
@@ -215,7 +215,7 @@ body.popup-show::after {
   width: 2.5rem;
   height: 2.5rem;
   align-self: flex-end;
-  background: url("../../img/icons/Close.svg") center/13px 13px no-repeat, #232536;
+  background: url("../img/icons/Close.svg") center/13px 13px no-repeat, #232536;
 }
 @media (max-width: 63.99875em) {
   .popup__close {
