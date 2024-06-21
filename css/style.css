@@ -304,18 +304,6 @@ body.popup-show::after {
   }
 }
 
-[data-fullscreen] {
-  min-height: 100vh;
-}
-.touch [data-fullscreen] {
-  min-height: calc(var(--vh, 1vh) * 100);
-}
-@media (max-width: 47.99875em) {
-  .touch [data-fullscreen] {
-    transition: height 0.2s;
-  }
-}
-
 [class*=-ibg] {
   position: relative;
 }
