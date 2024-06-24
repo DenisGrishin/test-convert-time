@@ -597,6 +597,18 @@ body.popup-show::after {
   top: 0;
 }
 
+._header-scroll + .page::before {
+  height: 80px;
+  width: 100%;
+  background-color: #232536;
+  content: "";
+  display: block;
+}
+
+.page::before {
+  display: none;
+}
+
 .footer {
   padding-top: 1.6875rem;
   padding-bottom: 1.75rem;
